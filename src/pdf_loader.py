@@ -22,7 +22,7 @@ def load_pdf(pdf_path):
 
 
 if __name__ == "__main__":
-    pdf_path = Path("D:\\Projects\\Local_RAG\\documents\\Arham_Mahmood_AI_Resume.pdf")
+    pdf_path = Path("documents/resume.pdf")
 
     pages = load_pdf(pdf_path)
 

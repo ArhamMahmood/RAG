@@ -7,7 +7,7 @@ import fitz
 
 EMBEDDING_MODEL = "all-minilm:latest"
 
-PDF_PATH = Path("D:\\Projects\\Local_RAG\\documents\\Arham_Mahmood_AI_Resume.pdf")
+PDF_PATH = Path("documents/resume.pdf")
 
 
 client = chromadb.PersistentClient(

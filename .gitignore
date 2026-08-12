@@ -1,0 +1,15 @@
+venv/
+chroma_db/
+documents/*.pdf
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+dist/
+*.egg-info/
+
+temp/
+*.log

@@ -1,1 +1,3 @@
-pip install ollama chromadb pymupdf
+ollama
+chromadb
+pymupdf
