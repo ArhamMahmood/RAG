@@ -73,22 +73,3 @@ This will create/update the local ChromaDB dataset from the PDF at `documents/re
 - Chat: `qwen2.5:3b`
 
 If you want faster performance, swap the chat or embedding model to a smaller local Ollama model.
-
-## GitHub
-
-This repository is intended for GitHub. To push your code to `https://github.com/ArhamMahmood/RAG.git`:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/ArhamMahmood/RAG.git
-git branch -M main
-git push -u origin main
-```
-
-## Notes
-
-- Keep `venv/` and `chroma_db/` out of source control by using `.gitignore`.
-- Use the actual `requirments.txt` file name from this repo when installing dependencies.
-- Run commands from the repository root rather than a specific drive path.
